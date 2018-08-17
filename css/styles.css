@@ -7,9 +7,16 @@
 
 /* main is child of container */
 .main-form {
+position: relative;
 
 }
 
-form-control {
-  border: 0;
+.no-border {
+    border: 0;
+    box-shadow: none;
+}
+.centered-contents {
+  display: block;
+  position: fixed;
+  align-self: center;
 }
