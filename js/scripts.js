@@ -21,6 +21,7 @@ function translator(usersNumber) {
 
 $(document).ready(function() {
   $("#beep-boop-bop").submit(function(event) {
+    $("#output").text("");
     event.preventDefault();
     var usersNumber = $("#numberInput").val();
         usersNumber = parseInt(usersNumber);

@@ -1,7 +1,4 @@
-
-
-
-# _Beep Boop Bop_
+# _Beep Boop Bop_ 8/17/18
 
 #### _This is a program looping though numbers and assigning some specific text replacements_  
 
