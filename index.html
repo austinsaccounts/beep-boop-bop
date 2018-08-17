@@ -29,9 +29,14 @@
    <!-- top section -->
 
     <div class="container main">
+        <button type="button" class="btn btn-danger" id="panic">PANIC!!! - "You're going to die Dave" - PANIC!!!</button>
       <form class="form-control no-border" id="beep-boop-bop">
-          <button type="button" class="btn btn-danger" id="panic">PANIC!!! - "You're going to die Dave" - PANIC!!!</button>
-        <input type="number" min="0" id="numberInput" class="center-block hidden">
+          <!-- <button type="button" class="btn btn-danger" id="panic">PANIC!!! - "You're going to die Dave" - PANIC!!!</button> -->
+          <div class="revealed">
+        <input type="number" min="0" id="numberInput" class="center-block">
+        <button type="submit btn-primary" id="buttonSubmission" class="center-block">Enter the number </button>
+      </div>
+      <h2 id="output"></h2>
       </form>
 
     </div>

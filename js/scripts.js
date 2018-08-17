@@ -1,13 +1,26 @@
 // numberInput is the formName
-$( document ).ready(function() {
-    console.log( "ready!" );
-    $("#panic").click(function() {
-      console.log("button worked")
-        $("#panic").hide();
-        $("")
-      $( "#target" ).submit();
-        $("#panic")
-    });
+$(document).ready(function() {
+  $("#beep-boop-bop").submit(function(event) {
+    event.preventDefault();
+    var usersNumber = $("numberInput").val();
+
+
+
+
+
+
+
+    $("#output").append(numberInput );
+  });
+
+
+
+    // $("#panic").click(function() {
+    //   console.log("panic fired")
+    //     $("#panic").hide();
+    //     $(".revealed").show();
+    //   });
+
 
 });
 
