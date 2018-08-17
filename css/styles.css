@@ -1,9 +1,13 @@
+body {
+  text-align: center;
+}
 .threatening {
   color: red;
   font-size: 18pt;
   font-style: italic;
 
 }
+
 
 /* main is child of container */
 .main-form {
