@@ -9,16 +9,16 @@ $(document).ready(function() {
 
     for (var i = 0; i<=usersNumber; i++) {
       if (i % 3 === 0) {
-        console.log("I'm sorry, Dave. I'm afraid I can't do that.");
+        $("#output").append("I'm sorry, Dave. I'm afraid I can't do that.<br>");
       } else if (i.toString().match(0) !== null){
-            console.log("BEEP");
+            $("#output").append("BEEP<br>");
     } else if (i.toString().match(1) !== null){
-          console.log("BOOP");
+          $("#output").append("BOOP<br>");
   } else {
-      console.log(i);
+      $("#output").append(i + " ");
     }
-    $("#output").append(numberInput );
   };
+  $("#output").append("<strong> GOODBYE </strong>");
 });
 })
 
@@ -29,7 +29,7 @@ $(document).ready(function() {
 
 
 // $("#panic").click(function() {
-    //   console.log("panic fired")
+    //   $("#output").append("panic fired")
     //     $("#panic").hide();
     //     $(".revealed").show();
     //   });
@@ -38,4 +38,4 @@ $(document).ready(function() {
 
 // $("#panic").hide();
 // $("#numberInput").show();
-// console.log( "ready!" );
+// $("#output").append( "ready!" );
